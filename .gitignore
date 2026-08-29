@@ -16,3 +16,8 @@ dataset_clean.csv
 
 # Allow compressed datasets
 !dataset_clean.csv.gz
+
+# ML Models
+*.joblib
+*.pkl
+!spam_detector_model.joblib
