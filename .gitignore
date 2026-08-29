@@ -1,1 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+.agents/
 
+# Ignore raw data files and large uncompressed datasets (>100MB)
+data/
+dataset_clean.csv
+*.csv
+!dataset_clean_test.csv
+
+# Allow compressed datasets
+!dataset_clean.csv.gz
+
+# ML Models
+*.joblib
+*.pkl
+!spam_detector_model.joblib
